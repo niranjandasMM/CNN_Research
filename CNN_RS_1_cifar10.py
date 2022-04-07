@@ -158,7 +158,7 @@ class Softmax:
 
 conv = Conv3x3(32)                  
 pool = MaxPool2()                  
-softmax = Softmax(15 * 15 * 8, 10) # 13x13x8 -> 10
+softmax = Softmax(15 * 15 * 32, 10) # 13x13x8 -> 10
 
 def forward(image, label):
 
